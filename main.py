@@ -1,11 +1,10 @@
-import os
 import requests
 import time
 import telegram
 
-API_KEY = os.getenv("13eff20aca36e0dd3455c7ae1faca58f")
-TELEGRAM_TOKEN = os.getenv("7486864029:AAFYrEsL3pdPpXukZTLMCytTedTGr2OiA48")
-TELEGRAM_CHAT_ID = os.getenv("@Mateeusmedeiros")
+API_KEY = "13eff20aca36e0dd3455c7ae1faca58f"
+TELEGRAM_TOKEN = "7486864029:AAFYrEsL3pdPpXukZTLMCytTedTGr2OiA48"
+TELEGRAM_CHAT_ID = "@Mateeusmedeiros"
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 
 def get_odds():
