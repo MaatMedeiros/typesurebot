@@ -4,7 +4,7 @@ import telegram
 
 API_KEY = "13eff20aca36e0dd3455c7ae1faca58f"
 TELEGRAM_TOKEN = "7486864029:AAFYrEsL3pdPpXukZTLMCytTedTGr2OiA48"
-TELEGRAM_CHAT_ID = "@Mateeusmedeiros"
+TELEGRAM_CHAT_ID = "922840989"
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 
 def get_odds():
